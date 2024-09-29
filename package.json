@@ -1,0 +1,21 @@
+{
+  "name": "kami-theme",
+  "displayName": "a cute theme for kami",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "nn",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kami-theme-color-theme.json"
+      }
+    ]
+  }
+}
