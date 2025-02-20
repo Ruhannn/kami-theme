@@ -1,8 +1,16 @@
 {
   "name": "kami-theme",
-  "displayName": "a cute theme for kami",
-  "description": "",
-  "version": "0.0.1",
+  "author": {
+    "name": "Ruhannn"
+  },
+  
+  "publisher": "Ruhan",
+  "displayName": "kami-theme",
+  "description": "a cute theme for kami",
+  "version": "0.0.2",
+  "repository": {
+    "url": "https://github.com/Ruhannn/kami-theme"
+  },
   "engines": {
     "vscode": "^1.93.0"
   },
@@ -12,7 +20,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "nn",
+        "label": "kami-theme",
         "uiTheme": "vs-dark",
         "path": "./themes/kami-theme-color-theme.json"
       }
